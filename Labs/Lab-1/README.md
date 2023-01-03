@@ -1,6 +1,6 @@
-$LAB-1
-$THEORY
-$Objetive
+LAB-1
+THEORY
+Objetive
 1.Ordered List :
 It is used to create a list of related items, in a specific order
 2.Unordered list :
