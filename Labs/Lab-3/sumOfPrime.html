@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Of Primes</title>
+</head>
+<body>
+
+    <h1><u>Sum Of Prime Numbers From 1-50</u></h1>
+
+    <script type="text/javascript">
+        var start = 1;
+        var end = 50;
+        start = parseInt(start);
+        end = parseInt(end);
+        var isPrime = 0;
+        var sum = 0;
+
+        for(var i =start; i<=end;i++){
+            isPrime = 1;
+            for(j=2; j<=i/2; j++){
+                if(i%j == 0){
+                    isPrime = 0;
+                    break;
+                }
+            }
+            if(isPrime == 1){
+                sum = sum + i;
+                document.write((i+1)+"<br>");
+            }
+        }
+
+        document.write("Sum of  Prime Numbers(1 -50) :"+ sum);
+
+    </script>
+</body>
+</html>

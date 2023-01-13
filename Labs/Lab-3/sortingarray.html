@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Array</title>
+</head>
+<body>
+
+    <h1><u>Sorting Array In Ascending & Descending Order</u></h1>
+
+    <script type="text/javascript">
+        let num = [1, 2, 3, 4, 5]
+        let choice  = prompt("Enter your choice : [1 / 2] 1-asc & 2-desc");
+
+        function A(c){
+            if(c == 1){
+                document.write("Ascening Order is :"+ num +"<br>");
+            }
+            else{
+                num.reverse();
+               document.write( "Descening Order is :" + num +"<br>");
+            }
+        }
+        A(choice);
+    </script>
+</body>
+</html>
