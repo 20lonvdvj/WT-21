@@ -9,12 +9,12 @@ It is used to create a list of related items, in no particular order.
 
 ## 4.Text formatting tags in HTML :
 
-b : bold text
--strong : important text
--i : italic text
--del : deleted text
--small : smaller text -sub : subscript text
--sup : superscript text
+### -b : bold text
+### -strong : important text
+### -i : italic text
+### -del : deleted text
+### -small : smaller text -sub : subscript text
+### -sup : superscript text
 ## 5.iframe
 iframe(inline frame) is an HTML element that loads another HTML page within the document.
 ## CONCLUSION:
